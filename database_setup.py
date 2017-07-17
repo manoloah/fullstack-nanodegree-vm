@@ -1,7 +1,8 @@
 import sys #provides a number of fucntion and variables to manipulate the python runtime environment
 
-from sqlalchemy import #will come in handy when writing mapper
+from sqlalchemy import
 Column, ForeignKey, Integer, String, Float
+#will come in handy when writing mapper
 
 from sqlalchemy.ext.declarative import declarative_base
 
